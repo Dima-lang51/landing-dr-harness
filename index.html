@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr.Harness</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <header class="header lock-padding" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./img/logo.png" alt="logo">
+            </a>
+          </div>
+
+          <nav class="nav">
+            <a class="nav__link" href="#">Каталог</a>
+            <a class="nav__link" href="#">Преимущества</a>
+            <a class="nav__link" href="#">Отзывы</a>
+            <a class="nav__link" href="#">Как заказать</a>
+          </nav>
+
+        </div> <!-- /.header__inner -->
+      </div> <!-- /.container -->
+    </header>
+
+
+
+    <!-- Intro -->
+    <div class="intro">
+      <div class="container container__intro">
+        <div class="intro__content">
+          <div class="intro__photo-left">
+            <img src="./img/bg_girl.png" class="intro__photo" alt="photo">
+          </div>
+          <div class="intro__inner">
+            <h2 class="intro__suptitle">Женские кожаные портупеи</h2>
+            <h1 class="intro__title">Dr.Harness</h1>
+            <h3 class="intro__sale">Любая модель со скидкой 50%</h3>
+            <h2 class="intro__price">всего за 2990p.</h2>
+          </div>
+          <div class="intro__photo-right">
+            <img src="./img/bg_girl1.png" class="intro__photo" alt="photo">
+          </div>
+        </div>
+        <div class="button-intro">
+          <a id="casual" class="btn btn-left" href="#catalog" onclick="showCasual(); return true;">повседневные
+            портупеи</a>
+          <a id="erotic" class="btn btn-right" href="#catalog" onclick="showErotic(); return true;">эротические
+            портупеи</a>
+        </div>
+      </div>
+    </div> <!-- /.intro -->
+
+    <div class="hit">
+      <div class="container">
+        <div class="hit__inner">
+          <h2 class="hit__top">
+            Хит №1 в мире - модные женские портупей
+          </h2>
+          <p class="hit__text">
+            Как и все кожаные аксессуары, портупея находиться сегодня на пике востребованности в мире моды, даря своей
+            обладательнице внимание и уверенность в себе.
+          </p>
+          <p class="hit__text">
+            Многообразие видов портупей - это как xарактер каждой девушки: от портупей из тонких ремешков для
+            <br>романтичных и женственных натур до сложных сплетений из средних и широких - для дерзких и
+            раскрепащенных.
+          </p>
+        </div> <!-- /h.it__inner -->
+      </div>
+      <div class="hit__photo">
+
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph1.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph2.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph3.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph4.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph5.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph6.jpg" alt="photo"></div>
+        <div class="photo__img"> <img class="hit__photo-slid" src="./img/ph7.jpg" alt="photo"></div>
+
+      </div>
+    </div> <!-- /h.it -->
+
+    <div class="sizes">
+      <div class="container">
+        <div class="sizes__text">
+          <h2 class="sizes__text-top">Таблица размеров</h2>
+        </div>
+        <table class="sizes__tab">
+          <tbody class="size__tab-row row-one">
+            <td>Международный</td>
+            <td>XS</td>
+            <td>S</td>
+            <td>M</td>
+            <td>L</td>
+            <td>XL</td>
+            <td>XXL</td>
+          </tbody>
+          <tbody class="size__tab-row row-two">
+            <td>Росийский</td>
+            <td>40</td>
+            <td>42</td>
+            <td>44/46</td>
+            <td>48/50</td>
+            <td>52/54</td>
+            <td>56</td>
+          </tbody>
+          <tbody class="size__tab-row row-three">
+            <td>Бедра(см)</td>
+            <td>84-92</td>
+            <td>92-95</td>
+            <td>96-101</td>
+            <td>102-108</td>
+            <td>109-116</td>
+            <td>117-121</td>
+          </tbody>
+          <tbody class="size__tab-row row-four">
+            <td>Талия(см)</td>
+            <td>60-65</td>
+            <td>66-69</td>
+            <td>70-77</td>
+            <td>78-85</td>
+            <td>86-95</td>
+            <td>96-102</td>
+          </tbody>
+          <tbody class="size__tab-row row-five">
+            <td>Грудь(см)</td>
+            <td>74-80</td>
+            <td>82-85</td>
+            <td>86-93</td>
+            <td>94-102</td>
+            <td>103-113</td>
+            <td>114-119</td>
+          </tbody>
+        </table>
+      </div>
+    </div> <!-- /si.zes -->
+
+    <div class="catalog" id="catalog">
+
+      <div class="container">
+
+        <div class="catalog__text">
+          <h2 class="catalog__text-top">Каталог</h2>
+        </div>
+
+        <div class="catalog__button button">
+          <a id="casual" class="btn btn-left catalog__btn catalog__btn-left" href="#catalog"
+            onclick="showCasual(); return true;">повседневные портупеи</a>
+          <a id="erotic" class="btn btn-right catalog__btn catalog__btn-right" href="#catalog"
+            onclick="showErotic(); return true;">эротические портупеи</a>
+        </div>
+
+        <!-- casual products -->
+        <div class="products casual">
+          <div class="product" id="cart_1">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd1.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Пеппи"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_2">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd2.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Влади"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_3">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd3.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Джони Миллер"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_4">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd1.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Пеппи"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_5">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd2.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Влади"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_6">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/cd3.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Джони Миллер"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+        </div> <!-- /.products -->
+
+        <!-- erotic products -->
+        <div class="products erotic" style="display: none;">
+          <div class="product" id="cart_1">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Пеппи"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_2">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Влади"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_3">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Джони Миллер"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_4">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Пеппи"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_5">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Влади"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+          <div class="product" id="cart_6">
+            <div class="product__photo">
+              <a class="product__photo-a" href="#">
+                <img class="product__photo-item" src="./img/ph4.jpg" alt="product">
+              </a>
+              <div class="product__discount">-53%</div>
+            </div>
+            <div class="product__name">
+              <h3 class="product__name-text">Портупея "Джони Миллер"</h3>
+            </div>
+            <div class="product__size">
+              <ul class="product__size-name">
+
+                <li class="product__size-item">XS</li>
+                <li class="product__size-item">S</li>
+                <li class="product__size-item">M</li>
+                <li class="product__size-item">L</li>
+                <li class="product__size-item item-no">XL</li>
+                <li class="product__size-item item-no">XXL</li>
+
+              </ul>
+            </div>
+            <div class="product__circle">
+              <div class="product__circle__red"></div>
+              <div class="product__circle__black"></div>
+            </div>
+            <div class="product__price">
+              <div class="product__price-old">
+                4990 р.
+              </div>
+              <div class="product__price-new">
+                2990 р.
+              </div>
+            </div>
+            <div class="product__button button">
+              <a class="btn-product" href="#popup">заказать</a>
+            </div>
+          </div>
+
+        </div> <!-- /.products -->
+
+      </div> <!-- /.container -->
+
+    </div> <!-- /.catalog -->
+
+    <div class="footer">
+      <div class="container">
+
+        <div class="footer__text">
+          <h2 class="footer__text-top">
+            как заказать?
+          </h2>
+        </div>
+
+        <div class="footer__order">
+          <div class="footer__order-order icn">
+            <img class="icn__img" src="./img/order.png" alt="order" class="icn__img">
+            <h4 class="icn-text">Вы оформляете заказ на нашем сайте</h4>
+          </div>
+          <div class="footer__order-operator icn">
+            <img class="icn__img" src="./img/operator.png" alt="operator">
+            <h4 class="icn-text">Менеджер перезвонит для уточнений деталей заказа</h4>
+          </div>
+          <div class="footer__order-delivery icn">
+            <img class="icn__img" src="./img/delivery.png" alt="delivery">
+            <h4 class="icn-text">В ближайшее время отправляем ваш закз</h4>
+          </div>
+          <div class="footer__order-payment icn">
+            <img class="icn__img" src="./img/payment.png" alt="payment">
+            <h4 class="icn-text">Вы оформляете заказ на нашем сайте</h4>
+          </div>
+        </div><!-- /.footer__order -->
+
+      </div>
+    </div>
+
+
+
+  </div> <!-- /.page -->
+
+
+  <div id="popup" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#header" class="popup__close popup-close"></a>
+        <div class="popup__photo">
+          <img class="popup__img" src="./img/cd1.jpg" alt="product">
+        </div>
+        <div class="popup__details">
+          <div class="details__name">
+            <h3 class="name-text">Портупея "Джони Миллер"</h3>
+          </div>
+          <div class="product__price">
+            <div class="product__price-old popup__price-old">
+              4990 р.
+            </div>
+            <div class="product__price-new popup__price-new">
+              2990 р.
+            </div>
+          </div>
+          <div class="select-size">
+            <select>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+          </div>
+          <div class="info">
+            <form name="test" method="post">
+              <input class="name" type="text" placeholder="Введите ваше имя" size="20">
+              <input class="phone" type="text" placeholder="Введите ваше телефон" size="20">
+            </form>
+          </div>
+          <div class="product__button button popup-button">
+            <a class="btn-product popup__btn" href="#popup">оформить заказать</a>
+          </div>
+        </div> <!-- /.popup__details -->
+      </div> <!-- /.popup__content -->
+    </div> <!-- /.popup__body -->
+  </div><!-- /.popup -->
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
